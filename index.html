@@ -3,34 +3,107 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bienes y Bienes </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <title>inmobiliario</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.15/css/jquery.dataTables.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
 </head>
 
 <body>
-    <h1>Groe</h1>
-    <div class="barra">
-        <a href="/">
-            <img src="build/img/logo.svg" alt="Logotipo de Bienes Raices">
-        </a>
 
-        <div class="mobile-menu">
-            <img src="build/img/barras.svg" alt="icono menu responsive">
+    <section>
+        <!--a partir de aca se inserta un navbar de bootstrap-->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fondo_navbar">
+            <div class="container-fluid">
+                <a class="navbar-brand " href="#"><img src="imagenes/logo.png" alt="" class=imagen_logo_menu></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item enlaces_menu enlace_inicio">
+                            <a class="nav-link active botones_menu enlace_inicio" aria-current="page"
+                                href="/">Inicio</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link botones_menu" href="nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link botones_menu" href="anuncios.html">Anuncios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link botones_menu" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link color_buttom boton_menu_contacto" href="contacto.html"> Contacto</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <!-- hasta aqui en esta seccion esta la barra de menu del navbar-->
+
+    <!-- aqui empieza el carousel-->
+    <div class="carrusel1">
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="imagenes/slider2.webp" class="d-block w-100 imagen_slider" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="imagenes/slider.webp" class="d-block w-100 imagen_slider" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="imagenes/slider3.webp" class="d-block w-100 imagen_slider" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
+    </div>
+    <!-- aqui termina el carousel-->
 
-        <div class="derecha">
-            <img class="dark-mode-boton" src="build/img/dark-mode.svg">
-            <nav class="navegacion">
-                <a href="nosotros.html">Nosotros</a>
-                <a href="anuncios.html">Anuncios</a>
-                <a href="blog.html">Blog</a>
-                <a href="contacto.html">Contacto</a>
-            </nav>
-        </div>
+    <!-- aqui empieza el efecto espejo con direccionamiento para cada palabra-->
+    <div class="efecto_espejo">
+
+        <button type=" button" class="btn btn-primary btn-lg palabras_dentro_efecto_espejo1">Quiero Comprar</button>
+        <button type="button" class="btn btn-primary btn-lg palabras_dentro_efecto_espejo1">Quiero Vender</button>
+        <button type="button" class="btn btn-primary btn-lg palabras_dentro_efecto_espejo1">Quiero Alquilar</button>
+
+    </div>
+    </div>
 
 
-    </div> <!--.barra-->
-    
+
+    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
+        </script>
+
+
+
 </body>
-
-</html>

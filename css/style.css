@@ -1,0 +1,71 @@
+.enlace_inicio {
+    margin-left: 190px !important;
+
+}
+
+.boton_menu_contacto {
+    color: rgb(255, 253, 253) !important;
+    background: #4adee9 !important;
+    margin-left: 10px !important;
+    border-radius: 8px !important;
+    font-family: Arial !important;
+    font-size: 16px !important;
+}
+
+.boton_menu_iniciar_sesión {
+    color: rgb(255, 253, 253) !important;
+    background: #75f379 !important;
+    margin-left: 10px !important;
+    border-radius: 8px !important;
+    font-family: Arial !important;
+    font-size: 16px !important;
+}
+
+.botones_menu {
+    font-family: Arial !important;
+    font-size: 16px !important;
+    color: rgb(31, 30, 30) !important;
+}
+
+.imagen_logo_menu {
+    width: 100%;
+    height: 110px;
+    margin: -13px;
+    margin-left: 15px;
+}
+
+.bg-body-tertiary {
+    background-color: rgb(225, 255, 252) !important;
+}
+
+/* hasta aqui llegan los estilos de la barra de menu de navbar.*/
+
+/* aqui rabajos trabajas sobre los estilos del carousel*/
+
+.imagen_slider {
+    margin-top: 10px !important;
+    margin-left: 85px !important;
+    align-items: center !important;
+    width: 90% !important;
+    margin: 10px 60px !important;
+    height: 280px !important;
+    border-radius: 20px !important;
+
+}
+
+
+/* aqui empieza el efecto espejo*/
+
+.palabras_dentro_efecto_espejo1 {
+    text-decoration: none;
+    margin-top: 45px;
+    margin-left: 210px;
+
+}
+
+.carrusel1 {
+    width: 90%;
+    margin: 10px 60px;
+    height: 280px;
+
+}
