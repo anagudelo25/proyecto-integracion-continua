@@ -69,3 +69,23 @@
     height: 280px;
 
 }
+
+.contenedor_seccion {
+    width: 100%;
+    text-align: center;
+    margin-top: 60px;
+
+}
+
+.iconos-nosotros {
+    display: flex;
+    margin: 0px 120px;
+    gap: 100px 140px;
+    margin-top: 30px;
+
+}
+
+.iconos-nosotros img {
+    width: 90px;
+    height: 100px;
+}
