@@ -35,7 +35,7 @@
 }
 
 .bg-body-tertiary {
-    background-color: rgb(225, 255, 252) !important;
+    background-color: rgb(244, 244, 244) !important;
 }
 
 /* hasta aqui llegan los estilos de la barra de menu de navbar.*/
@@ -88,4 +88,82 @@
 .iconos-nosotros img {
     width: 90px;
     height: 100px;
+}
+
+.seccion_contenedor {
+    width: 100%;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.seccion_contenedor h2 {
+    margin: 40px;
+    margin-bottom: 47px;
+}
+
+.contenedor-anuncios {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+.anuncio {
+    width: 400px;
+    height: 700px;
+    padding: 0px;
+    margin: 0px 20px;
+    background-color: rgb(236, 236, 240);
+    border-radius: 40px;
+}
+
+.img_anuncio {
+    width: 400px;
+    height: 400px;
+
+}
+
+.img_tarjeta {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 40px 0px;
+}
+
+
+.iconos-caracteristicas {
+    display: flex;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+    margin: 5px 10px;
+    margin-top: 13px;
+}
+
+.iconos-caracteristicas li {
+    width: 100px;
+}
+
+.contenido-anuncio a {
+    width: 100%;
+    text-decoration: none;
+    color: #fcfcfc;
+    font-size: 23px;
+    background-color: rgb(226, 233, 8);
+    padding: 7px 98px;
+}
+
+.contenido-anuncio h3 {
+    margin: 15px 0px;
+}
+
+.contenido-anuncio p {
+    padding: 0px 40px;
+    margin-bottom: 5px;
+}
+
+.precio {
+    color: #24f42b;
+    font-weight: bold;
+    font-size: 28px;
+    border-color: black;
 }
