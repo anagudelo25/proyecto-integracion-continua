@@ -39,7 +39,7 @@ pipeline {
                 // Agregar comandos para notificar sobre el despliegue
                 // Puedes incluir el ID del commit en la notificación
                 script {
-                    echo "Despliegue completado exitosamente para el commit: ${commitId}"
+                    echo "Despliegue completado exitosamente para el commit"
                 }
             }
         }
