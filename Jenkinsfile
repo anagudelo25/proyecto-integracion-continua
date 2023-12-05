@@ -26,13 +26,13 @@ pipeline {
             }
         }
 
-        stage('Despliegue a Producción') {
-            steps {
-                // Agregar comandos para desplegar en producción
-                // Puedes simplemente copiar los archivos a un servidor web, por ejemplo
-                // Ejemplo: sh 'cp -r * /ruta/del/servidor'
-            }
-        }
+        // stage('Despliegue a Producción') {
+        //     steps {
+        //         // Agregar comandos para desplegar en producción
+        //         // Puedes simplemente copiar los archivos a un servidor web, por ejemplo
+        //         // Ejemplo: sh 'cp -r * /ruta/del/servidor'
+        //     }
+        // }
 
         stage('Notificación de Despliegue') {
             steps {
